@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: CD
 
 # Controls when the workflow will run
 on:
@@ -28,8 +28,8 @@ jobs:
       - name: Skyline DataMiner Deploy Action
         uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.11
         with:
-        api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
-        solution-path: AutomationScript.sln
-        artifact-name: HelloWorldEmpower
-        version: 1.0.1
-        build-number: ${{ github.run_number }}
+          api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
+          solution-path: AutomationScript.sln
+          artifact-name: HelloWorldEmpower
+          version: 1.0.1
+          build-number: ${{ github.run_number }}

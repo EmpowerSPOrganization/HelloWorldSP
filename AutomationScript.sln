@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{E6A9831C-FD90-45C7-A15A-DE2333327670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{AE59A08B-57F5-4762-B2E1-2E1C59915C29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{28C261B8-A53C-4DDB-AD8C-C319F8C3F41B}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{8A5F23BB-327B-449D-A290-EDB263164F3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{2162A48F-2FCF-4A9C-9DEB-D1360BEB8885}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F1D823F9-D16D-4C82-BF43-1AA3F61DCF74}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{6A58249D-BDD5-4334-BA0C-06C6CD0C1102}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWorldSP_Final", "HelloWorldSP_Final", "{8495F560-7650-48F7-A783-DE3CB7A66BB3}"
+	ProjectSection(SolutionItems) = preProject
+		HelloWorldSP_Final.xml = HelloWorldSP_Final.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{9C15222F-80E1-4B0E-B4AC-42BA5CF4C345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldSP_Final_1", "HelloWorldSP_Final_1\HelloWorldSP_Final_1.csproj", "{217BD7D7-9B97-45B4-875D-32AAE8302824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217BD7D7-9B97-45B4-875D-32AAE8302824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217BD7D7-9B97-45B4-875D-32AAE8302824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217BD7D7-9B97-45B4-875D-32AAE8302824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217BD7D7-9B97-45B4-875D-32AAE8302824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2162A48F-2FCF-4A9C-9DEB-D1360BEB8885} = {8A5F23BB-327B-449D-A290-EDB263164F3C}
+		{6A58249D-BDD5-4334-BA0C-06C6CD0C1102} = {E6A9831C-FD90-45C7-A15A-DE2333327670}
+		{8495F560-7650-48F7-A783-DE3CB7A66BB3} = {AE59A08B-57F5-4762-B2E1-2E1C59915C29}
+		{9C15222F-80E1-4B0E-B4AC-42BA5CF4C345} = {8495F560-7650-48F7-A783-DE3CB7A66BB3}
+		{217BD7D7-9B97-45B4-875D-32AAE8302824} = {9C15222F-80E1-4B0E-B4AC-42BA5CF4C345}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6222E409-5E21-4161-8D6C-CAAE4E7464C0}
+	EndGlobalSection
+EndGlobal
